@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Violence Detection Using YOLOv8 - Towards Automated Video Surveillance and Public Safety</h1>
+<h2>Violence Detection Using YOLOv8 - Towards Automated Video Surveillance and Public Safety</h2>
 </div>
 
 </br>
