@@ -34,11 +34,49 @@
 ### Selected model
 
 - [Yolov8](https://github.com/ultralytics/ultralytics)
+- [Some CNN models](https://keras.io/api/applications/)
+- [Yolo-NAS](https://github.com/Deci-AI/super-gradients)
 
-### [Update 01](https://github.com/aatansen/Violence-Detection-Using-YOLOv8-Towards-Automated-Video-Surveillance-and-Public-Safety/blob/main/Update%2001/Violence_non_violence_detection_update_01.ipynb)
+### [Update 01](https://github.com/aatansen/Violence-Detection-Using-YOLOv8-Towards-Automated-Video-Surveillance-and-Public-Safety/tree/main/Update%2001)
 
 - Model used `YOLOv8s`
 - Number of epochs  = `25`
+- Batch size = `16`
 - Total training time = `0.255 hours`
+- Confidence threshold = `0.25`
+- Prediction on videos  = `10 videos`
+
+### [Update 02](https://github.com/aatansen/Violence-Detection-Using-YOLOv8-Towards-Automated-Video-Surveillance-and-Public-Safety/tree/main/Update%2002)
+
+As advised by the supervisor we used some CNN models and Yolo-NAS model and compare each of those models.
+
+CNN models we used:
+
+- VGG16
+- VGG19
+- ResNet152V2
+- InceptionV3
+- MobileNetV2
+- DenseNet201
+
+CNN models:
+
+- Number of epochs  = `25`
+- Batch size = `32`
+- Loss function used = `smooth_l1_loss`
+- Intersection Over Union `(IOU)` is observed in train , test , validation
+- Total training time:
+    - VGG16 - `1640.69 seconds`
+    - VGG19 - `1962.71 seconds`
+    - InceptionV3 - `1204.79 seconds`
+    - MobileNetV2 - `1023.70 seconds`
+    - DenseNet201 - `1547.24 seconds`
+
+Yolo-NAS model:
+
+- Model used `yolo_nas_s`
+- Number of epochs  = `25`
+- Batch size = `16`
+- Caching annotation time (minutes) = `Train datase-07:35` `Valid dataset-02:10` `Test dataset-01:03`
 - Confidence threshold = `0.25`
 - Prediction on videos  = `10 videos`
