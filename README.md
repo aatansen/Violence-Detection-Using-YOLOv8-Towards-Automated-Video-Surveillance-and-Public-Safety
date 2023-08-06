@@ -27,7 +27,7 @@
         - Valid = `575 images`
         - Test = `290 images`
 - Video dataset: [Kaggle Dataset](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)
-    - Total = 2000 videos
+    - Total = `2000 videos`
         - Non-violence = `1000 videos`
         - Violence = `1000 videos`
 
@@ -80,3 +80,24 @@ Yolo-NAS model:
 - Caching annotation time (minutes) = `Train datase-07:35` `Valid dataset-02:10` `Test dataset-01:03`
 - Confidence threshold = `0.25`
 - Prediction on videos  = `10 videos`
+
+### [Update 03](https://github.com/aatansen/Violence-Detection-Using-YOLOv8-Towards-Automated-Video-Surveillance-and-Public-Safety/tree/main/Update%2003)
+
+### Vehicle detection and count
+
+Selected Dataset:
+
+- Custom training dataset : [Roboflow Dataset](https://universe.roboflow.com/traffic-hxmtd/vehicles-aet91/dataset/3)
+    - Total = `17491 images`
+        - Train = `15296 images`
+        - Valid = `1458 images`
+        - Test = `737 images`
+- Model used `YOLOv8s`
+- Number of epochs  = `15`
+- Batch size = `16`
+- Total training time = `2.568 hours`
+- Confidence threshold = `0.25`
+- Prediction on images  = `737 images`
+- For object tracking = `ByteTrack`
+- For Line drawing ,annotation , coloring frame by frame = `Supervision`
+- Prediction and tracking on videos = `2 Videos`
