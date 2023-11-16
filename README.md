@@ -18,6 +18,7 @@
 ### Supervisor:
 
 - [Sovon Chakraborty](https://scholar.google.com/citations?user=B_jBQo0AAAAJ)
+- [Md. Obaidur Rahaman](https://scholar.google.com/citations?user=yzy28OwAAAAJ)
 
 ### Selected Dataset:
 
