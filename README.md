@@ -27,10 +27,12 @@
         - Train = `1969 images`
         - Valid = `575 images`
         - Test = `290 images`
-- Video dataset: [Kaggle Dataset](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)
-    - Total = `2000 videos`
-        - Non-violence = `1000 videos`
-        - Violence = `1000 videos`
+- ~~Video dataset: [Kaggle Dataset](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)~~ *(Not using this as it is same dataset as our selected image dataset)*
+    - ~~Total = `2000 videos`~~
+        - ~~Non-violence = `1000 videos`~~
+        - ~~Violence = `1000 videos`~~
+- Video dataset: RWF-2000: An Open Large Scale Video Database for Violence Detection
+    - Total = `2000 mixed videos`
 
 ### Selected model
 
@@ -78,7 +80,7 @@ Yolo-NAS model:
 - Model used `yolo_nas_s`
 - Number of epochs  = `25`
 - Batch size = `16`
-- Caching annotation time (minutes) = `Train datase-07:35` `Valid dataset-02:10` `Test dataset-01:03`
+- Caching annotation time (minutes) = `Train dataset-07:35` `Valid dataset-02:10` `Test dataset-01:03`
 - Confidence threshold = `0.25`
 - Prediction on videos  = `10 videos`
 
@@ -102,3 +104,11 @@ Selected Dataset:
 - For object tracking = `ByteTrack`
 - For Line drawing ,annotation , coloring frame by frame = `Supervision`
 - Prediction and tracking on videos = `2 Videos`
+
+### [Update 04](https://github.com/aatansen/Violence-Detection-Using-YOLOv8-Towards-Automated-Video-Surveillance-and-Public-Safety/tree/main/Update%2004)
+
+### Sample images from the dataset & few changes.
+
+- Viewed some of the sample images from the dataset to include in paper.
+- Kaggle video dataset won’t be used in model testing
+- [RWF-2000 video dataset](https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection) will be used in model testing
