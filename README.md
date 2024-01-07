@@ -81,6 +81,7 @@ Yolo-NAS model:
 - Number of epochs  = `25`
 - Batch size = `16`
 - Caching annotation time (minutes) = `Train dataset-07:35` `Valid dataset-02:10` `Test dataset-01:03`
+- Total training time (minutes) = `75.4 minutes`
 - Confidence threshold = `0.25`
 - Prediction on videos  = `10 videos`
 
